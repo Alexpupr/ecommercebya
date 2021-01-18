@@ -1,0 +1,45 @@
+.footitle {
+    font-size: 1.5rem;
+    border-right: rgba(0, 0, 0, 0.212) solid 1px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    transition: 0.5s ease-in-out;
+}
+
+.footitle:hover {
+    background-color: rgba(0, 0, 0, 0.432);
+    color: rgb(245, 245, 245);
+}
+
+ul {
+    border-top: solid 1px rgba(0, 0, 0, 0.192);
+    padding-top: 3rem;
+}
+
+.footitle:last-child {
+    border: none;
+    padding: none;
+    margin: none;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.068);
+    margin-bottom: 1rem;
+}
+
+.regresa {
+    height: 2rem;
+    width: auto;
+}
+
+.link-regreso {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.link-regreso:hover {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.315);
+    padding: 2rem;
+}
